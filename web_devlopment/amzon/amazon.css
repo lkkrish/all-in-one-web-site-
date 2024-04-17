@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    font-family: Arial;
+     /* Ensure consistent box model */
+  }
+  body {
+    background-color: #AED1E6; 
+  };
+  button {
+    border: none solid whitesmoke;
+    border-radius: 25%;
+
+  };
+
+
+  #box {
+    height: 60px;
+    width: 100%; /* Use `%` for responsive width */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #option{
+
+    height: 1cm;
+
+  }
+
+  
+  #logo {
+    background-image: url(amazon_logo.png); /* Replace with your image path */
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+    border: 2px solid transparent; /* Default border */
+  }
+  
+  #logo:hover {
+    border: 2px solid white; /* Hover effect */
+  }
+  
+  #nav-logo {
+    height: 50px;
+    width: 100px;
+    /* Consider adding class for styling to avoid potential conflicts */
+  }
+  
+  #Cart {
+    margin-top: 4px;
+  }
+  
+  #s {
+    width: 15cm; /* Use `px` for consistency */
+    height: 1cm;
+    font-size: 1rem;
+    
+  }
+  
+  #srollbar {
+    width: 400px; /* Use `px` for consistency */
+  }
+  
+  #upper-text {
+    font-size: 0.7rem;
+  }
+  
+  #lower-text {
+    font-size: 0.87rem;
+    font-weight: 700;
+  }
+  #sh{
+    height: 1cm;
+    width: 1cm;
+    background-color:white;
+    border-right: 25%;
+  }
+  
+#all{
+    height: 1cm;
+    width: 500px;
+    display: flex;
+    border-radius: 25%;
+    
+    
+}
+
+
+/*fiffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
+#nd{
+    display: flex;
+    background-color: 222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu{
+    height: 40px;
+    align-items: center;
+    
+
+
+}
+#optio p {
+    display: inline;
+    margin-left: 10px;
+    
+}
+#optio{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+
+#ex-deal{
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+/*ggggggggggggggggggggggggggggggggggggggggggggggffggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+*/
+
+#middle-section{
+
+  background-image: url(onpice.PNG);
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+}
+
+#middle-meassge{
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+
+}
+#middle-meassge a {
+  color: 007185;
+  border: none;
+  
+}
+
+#boxes{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2cm;
+
+}
+#shop{
+  justify-content: space-evenly;
+}
+
+#shop{
+  padding: 20px 0px 15px;
+}
+#a {
+  height: 453.54px;
+  width: 453.54px;
+  border: 2px;
+  background-image: url(tic_tac_toe.PNG);
+  background-size: 100%;
+}
+
+#b {
+  height: 453.54px;
+  width: 453.54px;
+  border: 2px;
+  background-image: url(calculator.PNG);
+  background-size: 100%;
+}
+
+#c {
+  height: 453.54px;
+  width: 453.54px;
+  border: 2px;
+  background-image: url(snakegame.PNG);
+  background-size: 100%;
+}
+
+
+#d {
+  height: 453.54px;
+  width: 453.54px;
+  border: 2px;
+  background-image: url(logo.png);
+  background-size: contain;
+}
+
+
+
+
+
+
+
+

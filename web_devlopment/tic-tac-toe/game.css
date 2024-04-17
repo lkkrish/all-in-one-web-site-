@@ -1,0 +1,17 @@
+button{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    font-size: 70px;
+    color: red;
+} 
+#area{
+    
+    margin-left: 50%;
+    margin-top: 25%;
+    gap: 5%;
+
+}
+#box{
+    background-color: #735290;
+}
